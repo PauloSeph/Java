@@ -11,9 +11,20 @@ public class If {
 		System.out.println("Informe a média: ");
 		double media = entrada.nextDouble();
 		
-		if(media >= 7.0) {
+		if(media <= 10 && media >= 7.0) {
 			System.out.println("Aprovado!");
 			System.out.println("Nice");
+		}
+		
+		if (media < 7 && media >= 4.5) {
+			System.out.println("Recuperação");
+			
+		}
+		
+		boolean criterio = media < 4.5 && media >= 0;
+		
+		if (criterio) {
+			System.out.println("Reprovado");
 		}
 		
 		entrada.close();
