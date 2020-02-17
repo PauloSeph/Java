@@ -6,14 +6,14 @@ public class Break {
 			
 			for (int i = 0; i < 10; i++)  {
 				if(i == 5) {
-					break;
+					break; }	
 				
 				System.out.println(i);
 			}
+			
 				
 			System.out.println("fim");
 		}
 
-	
 	
 }
