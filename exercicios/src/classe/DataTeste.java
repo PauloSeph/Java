@@ -10,7 +10,7 @@ public class DataTeste {
 		Primeiro.Mes = "Novembro";
 		Primeiro.Ano = 1993;
 		
-		System.out.printf("%d/%s/%d%n", Primeiro.Dia, Primeiro.Mes, Primeiro.Ano);
+		System.out.println(Primeiro.obterData());
 		
 		
 		Data Segundo = new Data();
@@ -19,7 +19,7 @@ public class DataTeste {
 		Segundo.Mes = "Fevereiro";
 		Segundo.Dia = 22;
 		
-		System.out.printf("%d/%s/%d", Segundo.Dia, Segundo.Mes, Segundo.Ano);
+		System.out.printf(Segundo.obterData());
 
 
 
